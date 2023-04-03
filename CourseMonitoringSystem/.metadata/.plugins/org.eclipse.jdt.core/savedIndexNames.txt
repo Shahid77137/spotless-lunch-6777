@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\user\Desktop\sam\Course_Monitoring_System\CourseMonitoringSystem\.metadata\.plugins\org.eclipse.jdt.core
+2582569155.index
+853114152.index
+1865797976.index
+2875640604.index
