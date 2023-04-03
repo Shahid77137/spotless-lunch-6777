@@ -22,4 +22,4 @@ JAVA
 JDBC
 MySQL
 
-<img align="right" alt="coding" width="1100" Height="400" src="[https://www.freecodecamp.org/news/content/images/2022/11/hire-full-stack-developers1546507474317-1.gif](https://user-images.githubusercontent.com/87129673/212978835-a169a8e7-e92f-43a1-af15-6922438fd43b.png)">
+<img align="right" alt="coding" width="1100" Height="400" src="https://user-images.githubusercontent.com/87129673/212978835-a169a8e7-e92f-43a1-af15-6922438fd43b.png">
