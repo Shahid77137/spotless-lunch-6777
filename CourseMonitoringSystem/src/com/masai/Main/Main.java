@@ -31,10 +31,13 @@ import com.masai.exception.AdminException;
 public class Main {
 
 	public static void main(String[] args) throws AdminException {
-		System.out.println("Welcome TO Course Management System");
+		System.out.println("************************************************");
+		System.out.println("Welcome TO Masai Batch Management System");
+		System.out.println("\n************************************************");
+
 		while(true) {
 			System.out.println("\n1.Login as Admin \n2.Login as Faculty\n3.Exit");
-			System.out.println("Enter Your Choice");
+			System.out.print("Enter Your Choice ");
 			Scanner sc=new Scanner(System.in);
 			int y=sc.nextInt();
 			if(y==1) {
@@ -43,6 +46,8 @@ public class Main {
 						System.out.println("****************************");
 						System.out.println("select one option");
 						System.out.println("\n1.Create Course\n2.course Aviblity\n3.Update course\n4.View All Course\n5.Deletecourse by name\n6.Create Btach\n7.view Batch\n8.delete Batch\n9.view Day Wise Batch\n10.Update Batch\n11.Create Faculty\n12.view faculty\n13.Update faculty\n14.Delete faculty\n15.Create course Plan\n16.view course plan\n17.delete course plan\n18.update course plan\n19.report for batch DTO.");
+						System.out.println();
+						System.out.print("Please Enter Selection ");
 						int x=sc.nextInt();
 						switch(x) {
 						case 1:{
@@ -147,7 +152,7 @@ public class Main {
 						System.out.println("Do You Want to Exit(Y/N)");
 						String s=sc.next();
 						if(s.compareToIgnoreCase("N")==0) {
-				          System.out.println("Thank You");
+				          System.out.println("Thank You!!");
 				          break;
 						}else {
 							continue;
@@ -163,7 +168,7 @@ public class Main {
 					while(true) {
 						System.out.println("****************************");
 						System.out.println("select one option");
-						System.out.println("\n1.View All Course\n2.dayWise Planneer\n3.change Password");
+						System.out.println("\n1.View All CoursePlan\n2.dayWise Planneer\n3.change Password");
 						int x=sc.nextInt();
 						switch(x) {
 						
@@ -200,7 +205,7 @@ public class Main {
 				}
 				
 			}else {
-				System.out.println("Thank You");
+				System.out.println("Thank You!!, Please visit again..");
 				break;
 			}
 		

@@ -58,7 +58,7 @@ public class createBatchUseCases {
 				e.printStackTrace();
 			}
 		
-			System.out.println("Do You want to Register More Courses?(Y/N)");
+			System.out.println("Do You want to Register More Batches?(Y/N)");
 			
 			String res=sc.next();
 			if(res.equalsIgnoreCase("N")) {
