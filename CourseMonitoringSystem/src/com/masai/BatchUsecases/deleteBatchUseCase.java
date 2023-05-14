@@ -7,7 +7,7 @@ import com.masai.dao.AdminDaoImpl;
 import com.masai.exception.BatchException;
 
 public class deleteBatchUseCase {
-
+// Here user can select this option can perform delete crud operation by batch name... 
 	public static void main(String[] args) {
 		System.out.println("Enter Name To Delete Batch");
 		try {

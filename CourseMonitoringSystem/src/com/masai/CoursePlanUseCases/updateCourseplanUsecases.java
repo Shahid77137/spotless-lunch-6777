@@ -7,7 +7,8 @@ import com.masai.dao.AdminDaoImpl;
 import com.masai.exception.CoursePlanException;
 
 public class updateCourseplanUsecases {
-
+	// By selection this operation we can perform update crud operation
+	// Here we can remove a particular course plan by its courseplanId
 	public static void main(String[] args) {
 		System.out.println("Enter Status To Update coursePlan");
 		try {

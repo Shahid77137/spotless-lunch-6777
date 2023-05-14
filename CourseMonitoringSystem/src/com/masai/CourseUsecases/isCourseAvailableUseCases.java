@@ -7,7 +7,7 @@ import com.masai.dao.AdminDaoImpl;
 import com.masai.exception.CourseException;
 
 public class isCourseAvailableUseCases {
-
+// By selecting this option user can check availability of a particular course by it name
 	public static void main(String[] args) {
 		System.out.println("Enetr name of course to check Avability");
 		try {

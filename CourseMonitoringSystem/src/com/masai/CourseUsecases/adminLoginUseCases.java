@@ -8,7 +8,7 @@ import com.masai.exception.AdminException;
 import com.masai.model.Admin;
 
 public class adminLoginUseCases {
-
+// By selecting this option Admin can login to the system by putting username and password
 	public static boolean login() {
 		boolean flag=false;
 		Scanner sc=new Scanner(System.in);

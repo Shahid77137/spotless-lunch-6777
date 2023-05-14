@@ -8,7 +8,8 @@ import com.masai.exception.CourseException;
 import com.masai.model.Course;
 
 public class createCourseUsecases {
-
+	// By selection this operation only admin can perform create crud operation
+	// Here we can create/add a new course by putting details
 	public static void main(String[] args) {
 		System.out.println("Enter course Details ");
 		try {

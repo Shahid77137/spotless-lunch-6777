@@ -7,7 +7,8 @@ import com.masai.dao.AdminDaoImpl;
 import com.masai.exception.FacultyException;
 
 public class deleteFacultyByNameUseCase {
-
+	// By selection this operation only admin can perform delete crud operation
+	// Here we can delete a new faculy by putting details
 	public static void main(String[] args) {
 		System.out.println("Enter Name To Delete faculty");
 		try {

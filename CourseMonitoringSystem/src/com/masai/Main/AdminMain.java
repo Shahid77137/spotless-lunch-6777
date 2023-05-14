@@ -25,7 +25,8 @@ import com.masai.FacultyUsecases.viewAllFacultyUsecases;
 import com.masai.model.ReportDayWiseDTO;
 
 public class AdminMain {
-
+//this is a method that enable user to choose to perform a particular operation either he want to go with Admin or user
+// by selecting the option he can be able to perform the selected operation
 	public static void main(String[] args) {
            Scanner sc=new Scanner(System.in);		
 		System.out.println("welcome Admin");
@@ -129,45 +130,10 @@ public class AdminMain {
    	  
      }
 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+
       }
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 	}
 
 }

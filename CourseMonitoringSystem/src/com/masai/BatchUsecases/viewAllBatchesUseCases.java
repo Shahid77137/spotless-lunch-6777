@@ -8,7 +8,7 @@ import com.masai.exception.BatchException;
 import com.masai.model.Batch;
 
 public class viewAllBatchesUseCases {
-
+// by selecting this operation we can check the details of all batches
 	public static void main(String[] args) {
 		AdminDao dao=new AdminDaoImpl();
 		try {

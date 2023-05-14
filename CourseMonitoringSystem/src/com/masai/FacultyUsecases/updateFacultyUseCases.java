@@ -7,7 +7,8 @@ import com.masai.dao.AdminDaoImpl;
 import com.masai.exception.FacultyException;
 
 public class updateFacultyUseCases {
-
+	// By selection this operation we can perform update crud operation
+	// Here we can update a new faculy by putting details
 	public static void main(String[] args) {
 		System.out.println("Enter Name To Update Faculty");
 		try {

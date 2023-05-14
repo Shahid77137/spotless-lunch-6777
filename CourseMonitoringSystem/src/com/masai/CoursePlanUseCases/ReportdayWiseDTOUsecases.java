@@ -8,7 +8,7 @@ import com.masai.exception.CoursePlanException;
 import com.masai.model.ReportDayWiseDTO;
 
 public class ReportdayWiseDTOUsecases {
-
+// By selecting this option we can report a particular course on day wise
 	public static void main(String[] args) {
 		AdminDao dao=new AdminDaoImpl();
 		try {

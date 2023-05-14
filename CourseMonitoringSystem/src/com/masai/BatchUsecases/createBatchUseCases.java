@@ -11,7 +11,8 @@ import com.masai.model.Batch;
 
 
 public class createBatchUseCases {
-
+	// By selection this operation only admin can perform create crud operation
+	// Here we can add a new course plan by putting details
 	public static void main(String[] args) {
 		System.out.println("Enter Batch Details");
 		try {

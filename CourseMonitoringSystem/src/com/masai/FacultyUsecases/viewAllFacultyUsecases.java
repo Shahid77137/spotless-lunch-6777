@@ -8,7 +8,7 @@ import com.masai.exception.FacultyException;
 import com.masai.model.Faculty;
 
 public class viewAllFacultyUsecases {
-
+	// by selecting this option user can view all faculty details present in this managing system
 	public static void main(String[] args) {
 		AdminDao dao=new AdminDaoImpl();
 		try {

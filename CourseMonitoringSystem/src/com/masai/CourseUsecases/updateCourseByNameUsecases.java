@@ -8,7 +8,8 @@ import com.masai.dao.AdminDaoImpl;
 import com.masai.exception.CourseException;
 
 public class updateCourseByNameUsecases {
-
+	// By selection this operation we can perform update crud operation
+		// Here we can update a particular course by putting coursename and courseId 
 	public static void main(String[] args) {
 		System.out.println("Enter Name To Update Course");
 		try {
@@ -21,7 +22,7 @@ public class updateCourseByNameUsecases {
 		 System.out.println("Enter courseId to Update Course");
 		 int courseId=sc.nextInt();
 		 System.out.println("Enter course name to Update Course");
-		String courseName=sc.next();
+		 String courseName=sc.next();
 		
 		 
 		 AdminDao dao=new AdminDaoImpl();

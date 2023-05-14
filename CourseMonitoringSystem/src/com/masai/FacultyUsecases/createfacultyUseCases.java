@@ -8,7 +8,8 @@ import com.masai.exception.FacultyException;
 import com.masai.model.Faculty;
 
 public class createfacultyUseCases {
-
+	// By selection this operation only admin can perform create crud operation
+	// Here we can create/add a new faculty by putting details
 	public static void main(String[] args) {
 		System.out.println("Enter Faculty Details");
 		try {

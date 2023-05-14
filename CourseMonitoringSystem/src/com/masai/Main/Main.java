@@ -26,17 +26,19 @@ import com.masai.MainFacultyUseacse.changeFacultyPassword;
 import com.masai.MainFacultyUseacse.dayWisePlannerUsecases;
 import com.masai.MainFacultyUseacse.facultyLoginUseCases;
 import com.masai.MainFacultyUseacse.viewCoursePlanFacultyUseCases;
+import com.masai.dao.AdminDao;
+import com.masai.dao.AdminDaoImpl;
 import com.masai.exception.AdminException;
 
 public class Main {
-
+// This method has been written to direct all the features of project Course Monitoring System... 
 	public static void main(String[] args) throws AdminException {
 		System.out.println("************************************************");
-		System.out.println("Welcome TO Masai Batch Management System");
+		System.out.println("Welcome TO Masai Course Monitoring System");
 		System.out.println("\n************************************************");
 
 		while(true) {
-			System.out.println("\n1.Login as Admin \n2.Login as Faculty\n3.Exit");
+			System.out.println("\n1.Login as Admin \n2.Login as Faculty\n0.Exit");
 			System.out.print("Enter Your Choice ");
 			Scanner sc=new Scanner(System.in);
 			int y=sc.nextInt();
@@ -45,7 +47,7 @@ public class Main {
 					while(true) {
 						System.out.println("****************************");
 						System.out.println("select one option");
-						System.out.println("\n1.Create Course\n2.course Aviblity\n3.Update course\n4.View All Course\n5.Deletecourse by name\n6.Create Btach\n7.view Batch\n8.delete Batch\n9.view Day Wise Batch\n10.Update Batch\n11.Create Faculty\n12.view faculty\n13.Update faculty\n14.Delete faculty\n15.Create course Plan\n16.view course plan\n17.delete course plan\n18.update course plan\n19.report for batch DTO.");
+						System.out.println("\n1.Create Course\n2.course Aviblity\n3.Update course\n4.View All Course\n5.Deletecourse by name\n6.Create Btach\n7.view Batch\n8.delete Batch\n9.view Day Wise Batch\n10.Update Batch\n11.Create Faculty\n12.view faculty\n13.Update faculty\n14.Delete faculty\n15.Create course Plan\n16.view course plan\n17.delete course plan\n18.update course plan\n19.report for batch DTO\n20.Log Out .");
 						System.out.println();
 						System.out.print("Please Enter Selection ");
 						int x=sc.nextInt();
@@ -90,63 +92,67 @@ public class Main {
 					    	 break;
 					   	  
 					     }
+//					     case 9:{
+//					    	 reportwiseBatchDTO.main(args);
+//					    	 break;
+//					   	  
+//					     }
 					     case 9:{
-					    	 reportwiseBatchDTO.main(args);
-					    	 break;
-					   	  
-					     }
-					     case 10:{
 					    	 updateBatchUsecases.main(args);
 					    	 break;
 					   	  
 					     }
-					     case 11:{
+					     case 10:{
 					    	 createfacultyUseCases.main(args);
 					    	 break;
 					   	  
 					     }
-					     case 12:{
+					     case 11:{
 					    	 viewAllFacultyUsecases.main(args);
 					    	 break;
 					   	  
 					     }
-					     case 13:{
+					     case 12:{
 					    	 updateFacultyUseCases.main(args);
 					    	 break;
 					   	  
 					     }
-					     case 14:{
+					     case 13:{
 					    	 deleteFacultyByNameUseCase.main(args);
 					    	 break;
 					   	  
 					     }
-					     case 15:{
+					     case 14:{
 					    	 createCoursePlanUseCases.main(args);
 					    	 break;
 					   	  
 					     }
-					     case 16:{
+					     case 15:{
 					    	viewAllCourseplanUseCases.main(args); 
 					    	break;
 					   	  
 					     }
-					     case 17:{
+					     case 16:{
 					    	 deleteCourseplanByCpIdUseCases.main(args);
 					    	 break;
 					   	  
 					     }
-					     case 18:{
+					     case 17:{
 					    	 updateCourseplanUsecases.main(args);
 					    	 break;
 					   	  
 					     }
-					     case 19:{
+					     case 18:{
 					    	 ReportdayWiseDTOUsecases.main(args);
 					    	 break;
 					   	  
-					     }  
-						
-																	
+					     } 
+					     case 20 :{
+					    	 System.out.println("Log out successfully");
+					    	 AdminDaoImpl ad = new AdminDaoImpl();
+					    	 
+						    break;
+					     }											
 						}//switch
 						System.out.println();
 						System.out.println("Do You Want to Exit(Y/N)");
@@ -185,16 +191,12 @@ public class Main {
 							break;
 						}	
 												
-						
-						
-						
-						
 						}
 						System.out.println();
 						System.out.println("Do You Want to Exit(Y/N)");
 						String s=sc.next();
 						if(s.compareToIgnoreCase("N")==0) {
-				          System.out.println("Thank You");
+				          System.out.println("Thank You for Visiting!");
 				          break;
 						}else {
 							continue;
@@ -204,7 +206,7 @@ public class Main {
 					
 				}
 				
-			}else {
+			}else if(y==0 || y==20){
 				System.out.println("Thank You!!, Please visit again..");
 				break;
 			}

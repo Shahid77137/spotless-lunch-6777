@@ -109,7 +109,6 @@ public class FacultyDaoImpl implements FacultyDao {
 					dto.setStatus(status);
 					list.add(dto);				
 					
-					
 				}
 			
 			

@@ -7,7 +7,8 @@ import com.masai.dao.AdminDaoImpl;
 import com.masai.exception.BatchException;
 
 public class updateBatchUsecases {
-
+// by selecting this operation we can update the crud operation
+//	we can update a particular batch with another batch by its id and its name
 	public static void main(String[] args) {
 		System.out.println("Enter Name To Update Batch");
 		try {

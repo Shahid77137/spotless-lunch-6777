@@ -8,7 +8,7 @@ import com.masai.exception.CourseException;
 import com.masai.model.Course;
 
 public class viewAllCourseDetailUseCase {
-
+// by selecting this option user can view all couse details present in this managing system
 	public static void main(String[] args) {
 		AdminDao dao=new AdminDaoImpl();
 		try {

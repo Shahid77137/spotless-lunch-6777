@@ -8,7 +8,8 @@ import com.masai.exception.BatchException;
 import com.masai.model.ReportForBatchDTO;
 
 public class reportwiseBatchDTO {
-
+// By selecting this operation we can report on faculty system and faculty
+// If any issue is there regarding a particular batch then we can report to the faculty	
 	public static void main(String[] args) {
 		AdminDao dao=new AdminDaoImpl();
 		try {

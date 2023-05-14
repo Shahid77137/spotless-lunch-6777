@@ -7,7 +7,8 @@ import com.masai.dao.AdminDaoImpl;
 import com.masai.exception.CourseException;
 
 public class deleteCourseBynameUseCases {
-
+	// By selection this operation we can perform delete crud operation
+	// Here we can delete a particular course by putting coursename 
 	public static void main(String[] args) {
 	System.out.println("Enter Name To Delete Course");
 	try {

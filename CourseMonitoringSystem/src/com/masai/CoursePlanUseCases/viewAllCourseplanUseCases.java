@@ -9,7 +9,8 @@ import com.masai.model.CoursePlan;
 
 
 public class viewAllCourseplanUseCases {
-
+//By selecting this option we can view all the course plan 
+// Here we can see all the course plan 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		AdminDao dao=new AdminDaoImpl();
